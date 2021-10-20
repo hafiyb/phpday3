@@ -13,6 +13,10 @@
     $hobby = '';
     $club = '';
     $output = $_POST['output'];
+    
+    if(empty($output)){
+        $output = ' ';
+    }
 
     switch($question){
         case 'name':

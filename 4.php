@@ -18,6 +18,7 @@
             <option value="name">Name</option>
             <option value="hobby">Hobby</option>
             <option value="club">Club</option>
+            <input type="hidden" name="output" value= " ">
         </select>
         <input type="submit">
     </form>
