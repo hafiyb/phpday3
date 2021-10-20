@@ -19,7 +19,7 @@
     }
 
     switch($question){
-        case 'name':
+        case '名前':
             questionName();
             break;
         case 'hobby':
@@ -35,7 +35,7 @@
     function questionName(){
         echo "<form action='4-1.php' method='post'>";
         echo "Name : <input type='text' name='output'>";
-        echo "<input type='hidden' name='question' value='name'>";
+        echo "<input type='hidden' name='question' value='名前'>";
         echo "<input type='submit'>";
         echo "</form>";
         

@@ -15,12 +15,14 @@
         What is your favourite club? : <input type="text" name="club">
         <br> -->
         <select name="question" id="">
-            <option value="name">Name</option>
+            <option value="名前">Name</option>
             <option value="hobby">Hobby</option>
             <option value="club">Club</option>
             <input type="hidden" name="output" value= " ">
         </select>
         <input type="submit">
+
+        
     </form>
 
 
